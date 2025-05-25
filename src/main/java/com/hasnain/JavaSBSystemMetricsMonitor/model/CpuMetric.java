@@ -8,7 +8,7 @@ public class CpuMetric {
 
     private LocalDateTime timestamp;
 
-    private CpuMetric(double usage, LocalDateTime timestamp) {
+    public CpuMetric(double usage, LocalDateTime timestamp) {
         this.usage = usage;
         this.timestamp = timestamp;
     }
